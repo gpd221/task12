@@ -1,0 +1,10 @@
+step 1:we login to our vm via ssh using the command 'ssh username@ip'
+step2:Clone our repository using 'git clone 'url' '
+step3:then we will copy the folder in the repo to Apache web server root folder using 'sudo cp -r task10 /var/www/html/'.
+step4:Then we will start the  apache2 server using 'sudo service apache2 start' and access in from the web browser using public ip.
+step5:Then we will install the php and mysql server using 'sudo apt-get update,sudo apt-get install php mysql-server '
+step6:Start mysql server and login 
+step7:Create database, table, and user.
+step8:Create necessary  php files for user registration and save that in the database.
+step9:Then add that to the apache2 root folder.
+step10:Access in from the web browser using public ip.
